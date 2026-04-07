@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact | Ashika</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Contact Me</h1>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="skills.html">Skills</a>
+</nav>
+
+<section>
+    <h2>Get in Touch</h2>
+    <p>
+        You can contact me for learning discussions,
+        collaboration, or general queries.
+    </p>
+</section>
+
+<section>
+    <!-- id added to form, inputs, and textarea for JS event handling -->
+    <form id="contactForm">
+        <fieldset>
+            <legend>Contact Form</legend>
+
+            Name:<br>
+            <input type="text" id="nameInput" required><br><br>
+
+            Email:<br>
+            <input type="email" id="emailInput" required><br><br>
+
+            Reason:<br>
+            <select id="reasonSelect">
+                <option>Learning</option>
+                <option>Project</option>
+                <option>Other</option>
+            </select><br><br>
+
+            Message:<br>
+            <textarea rows="4" id="messageInput"></textarea><br>
+            <!-- Event 4: Character counter display -->
+            <small id="charCount" style="color: gray;">Characters typed: 0</small><br><br>
+
+            <input type="submit" value="Send">
+        </fieldset>
+    </form>
+</section>
+
+<footer>
+    <p>Email: ashika@example.com</p>
+</footer>
+
+<!-- Link to JS file -->
+<script src="script.js"></script>
+
+</body>
+</html>
