@@ -1,8 +1,8 @@
 <?php
-$host     = "sql100.infinityfree.com";   // your actual host
-$user     = "if0_41603738";              // your actual username
-$password = "123ash123ash123";              // your actual password
-$database = "if0_41603738_shopeasedb"; // your actual db name
+$host     = "";   // your actual host
+$user     = "";              // your actual username
+$password = "password";              // your actual password
+$database = ""; // your actual db name
 
 $conn = mysqli_connect($host, $user, $password, $database);
 if (!$conn) {
